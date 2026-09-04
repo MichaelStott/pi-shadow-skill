@@ -44,13 +44,24 @@ Create `~/.pi/agent/shadow.json` with the following structure:
 
 ## Installation & Setup
 
-This package is a pi extension. Install it through your pi configuration.
+This package is a pi extension for pi agents.
+
+### Install for pi Agents
+
+1. Install the package with pi:
+
+```bash
+pi install npm:pi-shadow-skill
+```
+
+2. Restart your pi agent session so the extension is loaded.
+
+You can verify installation by looking for a shadow-load notification (for example: `🌑 - Shadow config loaded: ...`) when starting a session inside a git repository.
 
 ### Configuring Skills for Your Repository
 
-1. Install this extension in your pi configuration
-2. Create or edit `~/.pi/agent/shadow.json` (create the directory if it doesn't exist)
-3. Add an entry for your repository:
+1. Create or edit `~/.pi/agent/shadow.json` (create the directory if it doesn't exist)
+2. Add an entry for your repository:
 
 ```json
 {
