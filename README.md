@@ -9,7 +9,7 @@ During development, developers may want their [pi](https://pi.dev/) harness to a
 - **Developer-specific resources**: Skills and context may be uniquely valuable to a developer's workflow, not needed by all collaborators
 - **Work-in-progress**: Resources are still being refined and shouldn't be committed to version control
 
-Rather than using global gitignore rules (which are cumbersome and don't sync across worktrees when cloning), **pi-shadow-skill** provides a clean way to define additional context and skills for your workflows that automatically load for the repository.
+Rather than using global gitignore rules, **pi-shadow-skill** provides a clean way to define additional context and skills for your workflows that automatically load for the repository.
 
 ## How It Works
 
