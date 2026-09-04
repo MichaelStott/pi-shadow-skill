@@ -13,7 +13,7 @@ Rather than using global gitignore rules (which are cumbersome and don't sync ac
 
 ## How It Works
 
-This pi package enables shadow skill loading via a configuration file. When configured:
+This pi package enables shadow skill loading via a configuration file.
 
 1. Create a `shadow.json` file in `~/.pi/agent/` with your repository-specific skills and documentation
 2. Define skills and documentation paths for your target repositories using their URLs as keys
