@@ -4,6 +4,7 @@
   "description": "A pi skill for shadow file management",
   "type": "module",
   "keywords": [
+    "pi",
     "pi-package"
   ],
   "pi": {
