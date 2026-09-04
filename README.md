@@ -1,6 +1,6 @@
 # pi-shadow-skill 🌑
 
-Load untracked repository-specific skills and context  files without checking them into git.
+Load untracked repository-specific skill and context files without checking them into git.
 
 ## Motivation
 
